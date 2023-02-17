@@ -1,0 +1,58 @@
+# Site settings
+baseURL = "https://example.com"
+languageCode = "en-US"
+title = "Rathasaradhi Productions"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Local preview mode
+relativeURLs = true
+uglyURLs = true
+
+
+# Copyright
+copyright = "&copy;2023 Rathasaradhi Productions"
+
+
+
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "/ks.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+  [[params.links.list1.link]]
+        text = "Youtube"
+        url = "https://www.youtube.com/@rathasaradhiproductions2561/"
+        new_tab = false # Default, open at same tab
+
+      [[params.links.list1.link]]
+    
+        text = "Instagram"
+        url = "https://www.instagram.com/keerthisai_thirukkovalur/"
+        new_tab = true # new tab
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "rathasaradhiproduction@gmail.com"
+        new_tab = false # Default, open at same tab
+
+
